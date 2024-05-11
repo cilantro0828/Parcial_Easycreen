@@ -34,9 +34,7 @@ android {
 }
 
 dependencies {
-
-
-
+    // Dependencias de la aplicación
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.constraintlayout)
@@ -45,7 +43,11 @@ dependencies {
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
     implementation(libs.activity)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
+    implementation(libs.play.services.maps)
+    implementation(libs.uiautomator)
+    implementation(libs.ext.junit)
+    implementation(libs.espresso.core)
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+    androidTestImplementation("junit:junit:4.12")
 }

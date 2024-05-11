@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity8">
+    tools:context=".MainActivity9">
 
     <ImageView
         android:id="@+id/btnBack"
@@ -78,10 +78,10 @@
                 android:layout_width="4dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/prim" />
+                app:srcCompat="@drawable/param" />
 
             <ImageView
-                android:id="@+id/cuenta"
+                android:id="@+id/imageView20"
                 android:layout_width="120dp"
                 android:layout_height="55dp"
                 android:layout_weight="1"

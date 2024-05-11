@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,7 @@ public class MainActivity3 extends AppCompatActivity {
 
     Button btn_add;
     EditText corre, contrasenaa, conf_contraa;
+    ImageView btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,14 @@ public class MainActivity3 extends AppCompatActivity {
                     // Puedes implementar tu propia lógica para manejar los datos según tus necesidades
                     // Por ejemplo, podrías mostrar un mensaje de éxito o error después de guardar los datos
                 }
+            }
+        });
+
+        btnBack = findViewById(R.id.btnBack);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
     }
